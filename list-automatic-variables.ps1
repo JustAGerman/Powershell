@@ -1,0 +1,1 @@
+﻿ListAutomaticVariables | format-table -property Variable,Content
