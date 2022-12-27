@@ -58,7 +58,7 @@ function Char2MorseCode { param([string]$Char)
 	default { gap 7 }
 	}
 }
-if ($text -eq "" ) { [string]$text = read-host "Enter text to Translate" }
+if ($text -eq "" ) { [string]$text = read-host "Enter text to Translate to Morsecode" }
 
 [char[]]$ArrayOfChars = $text.ToUpper()
 foreach($Char in $ArrayOfChars) {
