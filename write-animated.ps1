@@ -25,7 +25,7 @@ if ($Line1 -eq "") {
 	$Line3 = "This contains colored, animated and audible text"
 	$Line4 = " "
 	$Line5 = "Best regards,"
-	$Line6 = "JustAGerman"
+	$Line6 = "Dominik"
 }
 
 WriteLine $Line1 $Speed
