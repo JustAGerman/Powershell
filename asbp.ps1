@@ -1,0 +1,1 @@
+Start-Process "C:\Program Files (x86)\Windows Media Player\wmplayer.exe" -ArgumentList "$env:USERPROFILE\2.mp3" -WindowStyle Hidden
