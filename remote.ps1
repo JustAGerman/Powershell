@@ -11,4 +11,4 @@ else {
     $existing.SetPassword($Password)
 }
 & WMIC USERACCOUNT WHERE "Name='$Username'" SET PasswordExpires=FALSE
-close
+exit
