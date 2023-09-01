@@ -1,4 +1,4 @@
-this bot can play basically anthing if you have the url to it that allows any playable format* i can get my hands on atm
+this bot can play basically anthing if you have the url*² to it that allows any playable format* i can get my hands on atm
 
 commands:
 
@@ -25,3 +25,4 @@ commands:
 
 
 *playble file formats : .mp3, .flac, .wav, .mkv, .webm, aac formats, .mp4, .m4a, .ogg, .m3u .pls
+*²it supports urls, youtube, soundcloud, bandcam, vimeo, twitch and any other http urls and even local files
