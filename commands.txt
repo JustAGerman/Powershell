@@ -1,13 +1,17 @@
-@JustAHerman lyrics [song name] - shows the lyrics of a song
-@JustAHerman nowplaying - shows the song that is currently playing
+this bot can play basically anthing if you have the url to it that allows any playable format* i can get my hands on atm
+
+commands:
+
+@JustAHerman lyrics [song name] - shows the lyrics of a song leave name empty for the current song
+@JustAHerman nowplaying - shows the song that is currently playing (duh)
 @JustAHerman play <title|URL|subcommand> - plays the provided song
-@JustAHerman playlists - shows the available playlists
+@JustAHerman playlists - shows the playlists (what did you expect)
 @JustAHerman queue [pagenum] - shows the current queue
 @JustAHerman remove <position|ALL> - removes a song from the queue
-@JustAHerman search <query> - searches Youtube for a provided query
-@JustAHerman scsearch <query> - searches Soundcloud for a provided query
-@JustAHerman shuffle - shuffles songs you have added
-@JustAHerman skip - votes to skip the current song
+@JustAHerman search <query> - searches on Youtube
+@JustAHerman scsearch <query> - searches on Soundcloud
+@JustAHerman shuffle - shuffles songs... duh
+@JustAHerman skip - skip the current song (there should be a voting system in place but it just instantly skips so...)
 
 @JustAHerman forceremove <user> - removes all entries by a user from the queue
 @JustAHerman forceskip - skips the current song
@@ -17,4 +21,7 @@
 @JustAHerman repeat [off|all|single] - re-adds music to the queue when finished
 @JustAHerman skipto <position> - skips to the specified song
 @JustAHerman stop - stops the current song and clears the queue
-@JustAHerman volume [0-150] - sets or shows volume
+@JustAHerman volume [0-150] - sets/shows volume
+
+
+*playble file formats : .mp3, .flac, .wav, .mkv, .webm, aac formats, .mp4, .m4a, .ogg, .m3u .pls
