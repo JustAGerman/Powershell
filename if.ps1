@@ -3,14 +3,14 @@ if (-Not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
     Start-Process powershell.exe -ArgumentList " -NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs
     Exit
 }
-# Define the URL to the raw hosts file on GitHub
+# Define the URL to the hosts file
 $githubRawUrl = "https://raw.githubusercontent.com/JustAGerman/Powershell/main/hosts"
 
 # Define the destination path (system's hosts file location)
 $destinationPath = "C:\Windows\System32\drivers\etc\hosts"
 
-# Download the raw hosts file from GitHub
+# Download the raw hosts file
 Invoke-WebRequest -Uri $githubRawUrl -OutFile $destinationPath -UseBasicParsing
 
-# Optionally, you can flush the DNS cache to apply changes immediately
+# flush the DNS cache to apply changes immediately
 ipconfig /flushdns
